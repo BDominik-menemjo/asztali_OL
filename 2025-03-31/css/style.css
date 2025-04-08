@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", "sans-serif";
+    font-size: 16;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+header, footer{
+    background-color: #81d742;
+}
+
+.widget h4{
+    color: #81d742;
+}
+
+nav a{
+    color: #000;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    color: #fff;
+}
+
+.main-title, .summa{
+    background-color: #efefef;
+    border-bottom: 1px solid #aaa;
+}
+
+.widget h4, .summa{
+    font-size: 20px;
+}
+
+.summa{
+    border: 5px solid #81d742;
+    padding: 30px;
+    color: #8f8a8a;
+    text-align: center;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+.title, h1{
+    font-size: 30px;
+}
+
+.sub-title{
+    font-size: 15px;
+}
+
+.bright{
+    border-right: 1px solid #aaa;
+}
+
+nav a, .title, h1{
+    text-transform: uppercase;
+}
+
+img, .summa{
+    border-radius: 15px;
+}
+.floatleft{
+    float: left;
+    width: 330px;
+}
+.bordered{
+    background-color: #7bdcb5;
+    border-left: 15px solid green;
+    padding: 20px;
+}
