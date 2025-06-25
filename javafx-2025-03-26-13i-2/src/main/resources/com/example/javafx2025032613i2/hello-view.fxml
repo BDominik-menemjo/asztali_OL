@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx2025032613i2.HelloController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="142.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="400.0" prefWidth="190.0" spacing="20.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images.png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#keruletekLakossagszamSzerint" prefHeight="26.0" prefWidth="517.0" text="Feladat 1" />
+                  <Button layoutX="10.0" layoutY="160.0" mnemonicParsing="false" onAction="#budaiOldalKeruletei" prefHeight="26.0" prefWidth="174.0" text="Feladat 2" />
+                  <Button layoutX="10.0" layoutY="186.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="156.0" text="Feladat 3" />
+                  <Button layoutX="10.0" layoutY="212.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="173.0" text="Feladat 4" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="412.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <Separator orientation="VERTICAL" prefHeight="400.0" prefWidth="0.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

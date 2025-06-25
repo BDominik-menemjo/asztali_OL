@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java20241111.HelloController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Fájl">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Kilépés" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Véradók">
+            <items>
+              <MenuItem fx:id="veradokRegisztacioMenuItem" mnemonicParsing="false" onAction="#showVeradokRegisztracio" text="Regisztráció" />
+                  <MenuItem fx:id="veradokKeresesMenuItem" mnemonicParsing="false" onAction="#showVeradokKereses" text="Keresés" />
+                  <MenuItem fx:id="veradokAdatmodositas" mnemonicParsing="false" text="Adatmódosítás" />
+            </items>
+          </Menu>
+        <Menu mnemonicParsing="false" text="Véradás helyszinei">
+            <items>
+                <MenuItem fx:id="veradasHelyszinHozzaadas" mnemonicParsing="false" text="Hozzáadás" />
+                <MenuItem fx:id="veradasHelyszinKereses" mnemonicParsing="false" text="Keresés" />
+                <MenuItem fx:id="veradasHelyszinModositas" mnemonicParsing="false" text="Módositás" />
+            </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Véradás">
+            <items>
+                <MenuItem fx:id="veradasHozzaadas" mnemonicParsing="false" text="Hozzáadás" />
+                <MenuItem fx:id="veradasKereses" mnemonicParsing="false"  text="Keresés" />
+                <MenuItem fx:id="veradasModositas" mnemonicParsing="false" text="Módositás" />
+            </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Statisztika">
+            <items>
+                <MenuItem fx:id="statisztikaAlkalmassagiStatisztika" mnemonicParsing="false" text="Alkalmassági statisztika" />
+                <MenuItem fx:id="statisztikaVerkeszlet" mnemonicParsing="false" text="Vérkészlet" />
+            </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Hibaelháritás">
+            <items>
+                <MenuItem fx:id="hibaelharitasVeradasokFrissitese" mnemonicParsing="false" text="Véradások frissitése" />
+            </items>
+        </Menu>
+          <Menu mnemonicParsing="false" text="Súgó">
+            <items>
+              <MenuItem fx:id="SugoKezelesiUtmutato" mnemonicParsing="false" text="Kezelési útmutató" />
+              <MenuItem fx:id="SugoNevjegy" mnemonicParsing="false" text="Névjegy" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
